@@ -182,47 +182,7 @@ namespace Tic_Tac_Toe_Game
             e.Graphics.DrawLine(pen, 350, 350, 650, 350);
             }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            play((PictureBox)sender);
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            play((PictureBox)sender);
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            play((PictureBox)sender);
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            play((PictureBox)sender);
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            play((PictureBox)sender);
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            play((PictureBox)sender);
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-            play((PictureBox)sender);
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-            play((PictureBox)sender);
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
+        private void pictureBox_Click(object sender, EventArgs e)
         {
             play((PictureBox)sender);
         }
